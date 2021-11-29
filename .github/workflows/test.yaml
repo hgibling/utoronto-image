@@ -1,0 +1,19 @@
+name: Build container image
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: checkout files in repo
+      uses: actions/checkout@main
+
+    - name: update jupyter dependencies with repo2docker
+      uses: jupyterhub/repo2docker-action@master
+      with: # make sure username & password/token matches your registry
+        NO_PUSH: "true"
+        DOCKER_REGISTRY: "quay.io"
+        IMAGE_NAME: "2i2c/utoronto-image"
