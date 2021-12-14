@@ -47,7 +47,7 @@ RUN echo "${LC_ALL} UTF-8" > /etc/locale.gen && \
 # littler, r-cran-mgcv, r-cran-survival, r-cran-matrix are specific packages needed
 # for apt to actually install the correct version of R 4.0.5
 ENV R_VERSION=4.0.5-1.2004.0
-RUN apt-key adv --keyserver keyserver.ubuntu.com:80 --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 RUN echo "deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/" > /etc/apt/sources.list.d/cran.list
 RUN apt-get update -qq --yes > /dev/null && \
     apt-get install --yes --no-install-recommends \
