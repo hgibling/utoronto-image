@@ -99,7 +99,7 @@ cran_packages <- c(
   "staplr", "3.1.1",
   "copula", "1.0-1",
   # From https://2i2c.freshdesk.com/a/tickets/60
-  "BiocManager", " 1.30.16 ",
+  "BiocManager", " 1.30.16"
 )
 
 github_packages <- c(
