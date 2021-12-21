@@ -97,7 +97,9 @@ cran_packages <- c(
   "dygraphs", "1.1.1.6",
   # From https://github.com/utoronto-2i2c/jupyterhub-deploy/issues/65
   "staplr", "3.1.1",
-  "copula", "1.0-1"
+  "copula", "1.0-1",
+  # From https://2i2c.freshdesk.com/a/tickets/60
+  "BiocManager", "1.30.16"
 )
 
 github_packages <- c(
@@ -126,3 +128,11 @@ for (i in seq(1, length(github_packages), 2)) {
     ref = github_packages[i + 1]
   )
 }
+
+
+# Install biocmanager version 3.12, for R 4.0
+BiocManager::install(version = '3.12')
+# Install packages from bioconductor
+BiocManager::install(c(
+  "edgeR"
+))
