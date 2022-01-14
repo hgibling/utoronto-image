@@ -27,4 +27,4 @@ jobs:
         password: ${{ secrets.QUAY_PASSWORD }}
 
     - name: docker push
-      run: docker push 2i2c/utoronto-image:test
+      run: docker push quay.io/2i2c/utoronto-image:test
