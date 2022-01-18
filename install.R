@@ -83,7 +83,7 @@ cran_packages <- c(
   "stopwords", "2.2",
   "sysfonts", "0.8.5",
   # for use with ottr and otter-grader
-  "testthat", "3.1.0",
+  "testthat", "3.1.1",
   "TH.data", "1.0-10",
   "tidygraph", "1.2.0",
   "tidytext", "0.3.1",
