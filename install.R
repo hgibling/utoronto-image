@@ -31,7 +31,7 @@ cran_packages <- c(
   "BsMD", "2020.4.30",
   "combinat", "0.0-8",
   "DoE.base", "1.2",
-  "emmeans", "1.6.3",
+  "emmeans", "1.7.2",
   "fivethirtyeight", "0.6.1",
   "FrF2", "2.2-2",
   "gdistance", "1.3-6",
