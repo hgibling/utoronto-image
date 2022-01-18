@@ -9,7 +9,7 @@ install.packages("devtools")
 cran_packages <- c(
   "tidyverse", "1.3.0",
   "learnr", "0.10.1",
-  "knitr", "1.34",
+  "knitr", "1.37",
   "rmarkdown", "2.11",
   "Rcpp", "1.0.7",
   "reticulate", "1.22",
