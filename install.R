@@ -32,7 +32,7 @@ cran_packages <- c(
   "combinat", "0.0-8",
   "DoE.base", "1.2",
   "emmeans", "1.7.2",
-  "fivethirtyeight", "0.6.1",
+  "fivethirtyeight", "0.6.2",
   "FrF2", "2.2-2",
   "gdistance", "1.3-6",
   "geojsonio", "0.9.4",
