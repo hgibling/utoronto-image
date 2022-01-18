@@ -48,7 +48,7 @@ cran_packages <- c(
   "lme4", "1.1-27.1",
   "Matching", "4.9-9",
   "multcomp", "1.4-17",
-  "partitions", "1.10-2",
+  "partitions", "1.10-4",
   "plotROC", "2.2.1",
   # From https://2i2c.freshdesk.com/a/tickets/49
   "polite", "0.1.1",
