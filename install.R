@@ -19,7 +19,7 @@ cran_packages <- c(
   "nycflights13", "1.0.2",
   "tinytex", "0.33",
   "shiny", "1.6.0",
-  "rstan", "2.21.2",
+  "rstan", "2.21.3",
   # https://github.com/utoronto-2i2c/jupyterhub-deploy/issues/31
   "ggforce", "0.3.3",
   "ggthemes", "4.2.4",
