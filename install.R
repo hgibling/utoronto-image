@@ -49,6 +49,7 @@ cran_packages <- c(
   "Matching", "4.9-9",
   "multcomp", "1.4-17",
   "partitions", "1.10-2",
+  "pheatmap", "1.0.12",
   "plotROC", "2.2.1",
   # From https://2i2c.freshdesk.com/a/tickets/49
   "polite", "0.1.1",
