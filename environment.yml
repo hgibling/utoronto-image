@@ -55,6 +55,7 @@ dependencies:
     - folium
     - geopy
     - otter-grader==3.1.4
+    - tensorflow==2.7.0
 
     # nbextensions
     - jupyterthemes==0.20.0
