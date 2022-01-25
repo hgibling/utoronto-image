@@ -51,19 +51,11 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E298A3A825
 RUN echo "deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/" > /etc/apt/sources.list.d/cran.list
 RUN apt-get update -qq --yes > /dev/null && \
     apt-get install --yes --no-install-recommends \
-    r-base=${R_VERSION} \
     r-base-core=${R_VERSION} \
     r-base-dev=${R_VERSION} \
-    r-recommended=${R_VERSION} \
     r-cran-littler=0.3.11-1.2004.0 \
-    r-cran-mgcv=1.8-36-1cran1.2004.0 \
-    r-cran-lattice=0.20-44-1cran1.2004.0 \
-    r-cran-rpart \
-    r-cran-survival \
-    r-cran-nlme \
-    r-cran-matrix=1.3-3-1.2004.0 \
     nodejs \
-    npm > /dev/null
+    npm
 
 # Install desktop packages
 RUN apt-get update -qq --yes > /dev/null && \
